@@ -1,0 +1,13 @@
+.btn {
+  min-width: 255px;
+  color: #ffffff;
+  font-size: .9375em;
+  line-height: 1.125em;
+  background-color: #306998;
+  height: 56px;
+  line-height: 56px;
+  border-radius: 28px;
+  border: 0;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=buttons.css.map */
