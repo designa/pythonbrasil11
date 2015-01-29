@@ -1,4 +1,5 @@
 .landing {
+  width: 100%;
   display: table-cell;
   vertical-align: middle;
   position: relative;
@@ -19,6 +20,7 @@
     line-height: 1.125em;
     text-transform: uppercase; }
   .landing .date {
+    text-transform: none;
     margin-bottom: 20px; }
   .landing .place {
     margin-bottom: 13px; }
@@ -40,13 +42,25 @@
     color: #1b4a71;
     font-size: 1.0625em;
     line-height: 1.125em;
-    display: block;
     text-decoration: none; }
     .landing .contact i, .landing .last-edition i {
       font-style: normal;
       color: #1b4a71;
       text-decoration: underline; }
   .landing .contact {
+    display: block;
     margin-bottom: 44px; }
+  .landing .designa {
+    margin-left: 15px;
+    color: #1b4a71;
+    font-size: 1.0625em;
+    line-height: 1.125em; }
+    .landing .designa a {
+      color: #1b4a71;
+      font-size: 1.0625em;
+      line-height: 1.125em; }
+    .landing .designa:before {
+      content: "|";
+      margin-right: 15px; }
 
 /*# sourceMappingURL=landing.css.map */
