@@ -1,0 +1,53 @@
+.main {
+  position: relative;
+  min-height: 100%;
+}
+
+.row {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media(max-width: 1200px) {
+    padding: 0 25px;
+  }
+}
+
+.v-align {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.no-border {
+  border: none;
+}
+
+.centered {
+  text-align: center;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+.right-aligned {
+  text-align: right;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.fit {
+  width: 1%;
+  white-space: nowrap;
+}
+
+@media(max-width: 767px) {
+  .responsive-table {
+    overflow: auto;
+    width: 100%;
+  }
+}
+
