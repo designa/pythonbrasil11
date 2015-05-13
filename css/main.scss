@@ -16,3 +16,12 @@
         "base/basic",
         "base/media";
 
+@import "core/buttons";
+
+@import "modules/welcome",
+        "modules/about",
+        "modules/speakers",
+        "modules/location",
+        "modules/programming",
+        "modules/sponsors",
+        "modules/footer";

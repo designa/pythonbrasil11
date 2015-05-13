@@ -9,7 +9,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media(max-width: 1200px) {
+  @media(max-width: 1199px) {
     padding: 0 25px;
   }
 }
@@ -31,8 +31,16 @@
   text-align: left;
 }
 
+.pull-left {
+  float: left;
+}
+
 .right-aligned {
   text-align: right;
+}
+
+.pull-right {
+  float: right;
 }
 
 .no-scroll {
@@ -51,3 +59,6 @@
   }
 }
 
+.link {
+  color: $blue;
+}

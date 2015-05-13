@@ -8,7 +8,8 @@
 
   &:active {
     box-shadow: inset 0 2px 6px rgba(0,0,0,0.25), 0 1px 0 rgba(255, 255, 255, 0.3);
-    @include prefixer(box-shadow, (inset 0 2px 6px rgba(0,0,0,0.25), 0 1px 0 rgba(255, 255, 255, 0.3)), $prefixers);
+    -moz-box-shadow: inset 0 2px 6px rgba(0,0,0,0.25), 0 1px 0 rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: inset 0 2px 6px rgba(0,0,0,0.25), 0 1px 0 rgba(255, 255, 255, 0.3);
   }
 
   &:disabled {
@@ -18,7 +19,14 @@
 }
 
 @mixin icon($url, $size: contain, $position: center, $repeat: no-repeat) {
-  background-image: asset-url($url);
+  background-image: url($url);
+  background-size: $size;
+  background-position: $position;
+  background-repeat: $repeat;
+}
+
+@mixin background($url, $size: cover, $position: center, $repeat: no-repeat) {
+  background-image: url($url);
   background-size: $size;
   background-position: $position;
   background-repeat: $repeat;
